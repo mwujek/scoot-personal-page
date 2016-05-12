@@ -1,0 +1,1 @@
+$(window).load(function(){}),$(document).ready(function(){var e=$(".svg-container svg"),n=e.find(".st1");TweenLite.to(n,2,{ease:Back.easeInOut.config(1.5),drawSVG:"100%"}),$(".start").click(function(e){e.preventDefault(),console.log("asd"),TweenLite.to(n,1,{ease:Back.easeInOut.config(1.5),drawSVG:"0%"})})}),$(window).resize(function(){});
